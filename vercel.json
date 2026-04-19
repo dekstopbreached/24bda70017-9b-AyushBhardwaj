@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd my-app && pnpm build",
-  "outputDirectory": "my-app/out",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "out",
   "installCommand": "pnpm install --frozen-lockfile",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "root": "my-app"
 }
